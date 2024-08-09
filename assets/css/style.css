@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #303030;
+  color: white;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+.grid-container {
+  width: 80%;
+  margin: auto;
+  display: grid;/*habilita este container a modo grilla*/
+  grid-template-columns: 1fr 1fr 1fr;/*define cantidad de columnas(3) y sus anchos(1fr)*/
+  justify-items: center;/*alinea horizontalmente los items (hijos) del container*/
+  align-items: center;/*alinea verticalmene los items (hijos) del container*/
+  gap: 10px;/*define espaciado horizontal-vertical entre los items(hijos)*/
+}
+.items img {
+  width: 100%;
+  border-radius: 20px;
+}

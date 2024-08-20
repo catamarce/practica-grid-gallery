@@ -16,3 +16,5 @@ Galeria construida con la utilizacion de propiedades GRID de CSS.
 }
 ```
 Para mas detalles reviza el archivo:  _style.css_
+
+![screenshot](https://github.com/rimardev/practica-grid-gallery/blob/main/assets/img/screenshot.jpg)
